@@ -8,7 +8,7 @@ Standards-Version: 3.7.3
 
 Package: mce
 Architecture: any
-Depends: dbus, ${shlibs:Depends}, ${misc:Depends}
+Depends: dbus, ${shlibs:Depends}, ${misc:Depends}, kernel-feature-errata-430973-workaround [armel]
 Recommends: dsme (>= 0.30.11)
 Conflicts: osso-systemui-tklock (<< 0.1.8.12), osso-applet-display (<< 1.4.2), libcodelockui1 (<< 1:1.5.5), hildon-desktop (<< 1:2.2.48-1), osso-systemui-alarm (<< 0.2.1.24), osso-systemui-devlock (<< 0.2.0.3)
 Description: the Mode Control Entity for Nokia Internet Tablets

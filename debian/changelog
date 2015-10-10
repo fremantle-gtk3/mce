@@ -1,3 +1,9 @@
+mce (1.8.127.3+0m5+thumb0) unstable; urgency=low
+
+  * Thumb2 compile
+
+ -- Ivaylo Dimitrov <freemangordon@abv.bg>  Sat, 10 Oct 2015 11:47:23 +0300
+
 mce (1.8.127.3+0m5) unstable; urgency=low
 
   * compile with correct splashscreen-dbus-names.h and modechange-dbus-names.h
